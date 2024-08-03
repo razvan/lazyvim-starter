@@ -6,7 +6,9 @@ vim.opt.spelllang = { "en", "de" }
 vim.api.nvim_set_option_value("wrap", true, { scope = "global" })
 vim.api.nvim_set_option_value("linebreak", true, { scope = "global" })
 vim.api.nvim_set_option_value("clipboard", "unnamedplus", { scope = "global" })
-vim.api.nvim_set_option_value("colorcolumn", "120", { scope = "global" })
+
+-- Page marker
+-- vim.api.nvim_set_option_value("colorcolumn", "120", { scope = "global" })
 
 -- To disable format on save for a buffer or globally:
 --   vim.b.autoformat=false
